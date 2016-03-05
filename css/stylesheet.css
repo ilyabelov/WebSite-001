@@ -1,6 +1,14 @@
 .demo_button {
-	transition: all 0.4s ease;
+	display: inline-block;
+	width: 320px;
+	height: 44px;
+	background: url("../images/background_001.png");
+	transition: all 0.3s ease;
 }
 .demo_button:hover {
-	opacity: 0.7;
+/*	opacity: 0.6;*/
+	background: url("../images/background_002.png");
+}
+ul {
+	list-style: none;
 }

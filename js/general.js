@@ -1,3 +1,4 @@
-$(document).ready(function(){
-	alert("start");
-});
+function onDocumentLoad() {
+	console.log("test string");
+	// alert("start");
+}

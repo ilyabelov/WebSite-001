@@ -1,3 +1,15 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	color: #533299;
+}
+h2 {
+	color: #99340F;
+}
+
 .demo_button {
 	display: inline-block;
 	width: 320px;
@@ -10,5 +22,27 @@
 	background: url("../images/background_002.png");
 }
 ul {
+	margin: 0;
+	padding: 0;
 	list-style: none;
+}
+li {
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	width: 33%;
+	height: 40px;
+	border: none;
+	background: #E4E3BE;
+	text-align: center;
+	line-height: 36px;
+	box-sizing: border-box;
+}
+li a {
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.center {
+	text-align: center;
 }
